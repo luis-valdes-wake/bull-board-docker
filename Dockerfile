@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-RUN apk add curl
+RUN apk --no-cache add curl
 
 USER node
 
