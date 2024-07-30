@@ -1,5 +1,7 @@
 FROM node:18-alpine
 
+RUN apk add curl
+
 USER node
 
 ENV NODE_ENV=production \
